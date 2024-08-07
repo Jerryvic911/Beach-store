@@ -1,0 +1,46 @@
+/* Define keyframes for a bounce animation with color changes */
+@keyframes bounce-fun {
+    0%, 100% {
+      transform: translateX(0);
+      background-color: #ff6347; /* Initial color */
+    }
+    25% {
+      transform: translateX(-20px);
+      background-color: #ffa500; /* Orange */
+    }
+    50% {
+      transform: translateX(0);
+      background-color: #32cd32; /* Lime Green */
+    }
+    75% {
+      transform: translateX(-10px);
+      background-color: #1e90ff; /* Dodger Blue */
+    }
+  }
+  
+  /* Apply the animation to the button */
+  .fun-btn {
+    animation: bounce-fun 1.5s ease-in-out 2.5s;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .fun-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .bar{
+    display: none;
+  }
+
+  @media screen and (max-width:400px) {
+    .bar{
+      display: inline;
+    }
+  }
+  

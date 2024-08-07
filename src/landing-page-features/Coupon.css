@@ -1,0 +1,7 @@
+.img{
+    background-image: url(https://images.pexels.com/photos/635279/pexels-photo-635279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover; /* or contain */
+    background-repeat: no-repeat;
+    height: 70vh; /* or 100% */
+  width: 100%;
+}
