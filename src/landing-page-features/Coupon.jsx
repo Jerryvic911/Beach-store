@@ -6,19 +6,22 @@ function Coupon() {
   return (
     <>
       <div className="img mt-[14rem]">
-        <div className=" bg-transparent w-[198vh] h-[30vh]">
-          <div className=" justify-center text-center pt-[9rem]">
+        <div className="">
+        <div className="  bg-transparent w-[198vh] h-[30vh]">
+          <div className="text justify-center text-center pt-[9rem]">
             <h1 className=" capitalize text-6xl font-display font-semibold">
               Give the Gift of a Postcard
             </h1>
             <h2 className=" capitalize font-normal mt-4 mb-4 font-jerry tracking-[2px] text-[20px] ">
               Give the gift of a lasting memory with a postcard
             </h2>
-            <button className=" capitalize bg-black text-white w-[17rem] h-[7vh] rounded-sm mt-3 tracking-[3px] text-xl font-normal font-Montserrat">
+            <button className=" capitalize bg-black text-white w-[19rem] h-[9vh] rounded-sm mt-3 tracking-[3px] text-xl font-[500] text-[25px] font-Montserrat">
               Purchase A Postcard
             </button>
           </div>
         </div>
+        </div>
+        
       </div>
 
       <div className="grid grid-cols-3 pl-32 pt-10">

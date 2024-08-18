@@ -7,12 +7,15 @@ function Contact() {
   return (
     <div>
       <div className="img-2">
-        <div className="text">
+        <div className="text "> 
+          <div className="text-black">
           <Header />
+          </div>
+        
         </div>
 
-        <div className="text font-Montserrat text-center mt-[13rem] font-[400] text-[6rem]">
-          <h1>Contact Us</h1>
+        <div className="text font-Montserrat text-center mt-[3rem] font-[400] text-[6rem]">
+          <h1 className="pt-[13rem]">Contact Us</h1>
         </div>
       </div>
 
@@ -112,7 +115,7 @@ function Contact() {
                   Phone
                 </h1>
                 <p className="pl-[27px]  font-jerry text-[20px] font-[400]">
-                  +234 090 162 336 91
+                  +234-090-162-336-91
                 </p>
               </div>
             </div>

@@ -7,12 +7,15 @@ function Abouts() {
   return (
     <div>
       <div className="img-1">
-        <div className="text">
-          <Header />
+        <div className="text ">
+          <div className="text-black">
+          <Header/>
+          </div>
+         
         </div>
 
-        <div className=" font-Montserrat text-center mt-[13rem] font-[400] text-[6rem]">
-          <h1 className="text">WHO ARE WE?</h1>
+        <div className=" font-Montserrat text-center mt-[3rem] font-[400] text-[6rem]">
+          <h1 className="text pt-[13rem]">WHO ARE WE?</h1>
         </div>
       </div>
 

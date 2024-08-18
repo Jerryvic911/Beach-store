@@ -14,8 +14,11 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^5.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
