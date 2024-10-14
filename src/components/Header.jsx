@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import  { useContext } from "react";
 import "../components/Header.css";
 import Sidebar from "../Sidebar";
 import { Outlet, Link } from "react-router-dom";
@@ -8,44 +8,42 @@ function Header() {
   const { totalItems } = useContext(ShopContext);
 
   return (
-    <div className="pt-2 pb-3 fixed top-0 w-full bg-white shadow-md z-50">
+    <div className="pt-2 pb-3 fixed top-0 w-full h-[4rem] bg-white shadow-md z-50">
       <header className="flex justify-between">
-        <div className="ml-[20vh] mt-1 flex gap-5">
+        <div className="head-container ml-[20vh] mt-1 gap-5">
           <div className="bar">
             <Sidebar />
           </div>
-          <h1>
-            <button className="font-Montserrat font-[500] leading-[17px] text-3xl pt-3">
+          <h1 className="head-text font-Montserrat font-[500] leading-[17px] text-3xl pt-3">
               Beach Store
-            </button>
           </h1>
         </div>
         <div className="mr-[13vh] pt-2">
-          <ul className="flex justify-evenly gap-[3rem] font-normal text-xl">
-            <div className="mt-1 flex justify-evenly gap-[3rem] font-Montserrat font-[450]">
-              <li>
+          <ul className="flex justify-evenly gap-[3rem] font-normal text-xl ">
+            <div className="mt-1 flex justify-evenly gap-[3rem] font-Montserrat font-[450] ">
+              <li className="hide-list-btn">
                 <button className="hover:underline btn">
                   <Link to="/">Home</Link>
                 </button>
               </li>
-              <li>
+              <li  className="hide-list-btn">
                 <button className="hover:underline">
                   <Link to="/about">About</Link>
                 </button>
               </li>
-              <li>
+              <li  className="hide-list-btn">
                 <button className="hover:underline">
                   <Link to="/contact">Contact</Link>
                 </button>
               </li>
               <Link to="/shop">
-              <li>
+              <li  className="hide-list-btn">
                 <button className="hover:underline">Shop</button>
               </li>
               </Link>
             </div>
             <li>
-              <div>
+              <div  className="cart-profile">
                 <Link to="/cart">
                   <button className="mr-4 relative">
                     <svg

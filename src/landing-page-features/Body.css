@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .body {
-  
-  
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -22,3 +20,56 @@ h1{
   font-weight:400;
   font-style: normal;
 }
+
+@media screen and (max-width:700px) {
+  .imgg{
+    height: 90vh;
+    width: 100%;
+    background-size:40rem;
+  padding-top: 30px;
+    background-repeat: no-repeat
+  }
+
+  .text{
+    font-size: 2rem /* 60px */;
+    line-height: 1px;
+    font-size: small;
+   
+  }
+
+  .hold-img{
+    position: relative;
+    bottom: 150px;
+  }
+  .hold-img h2{
+    font-size: 40px;
+  }
+}
+
+ 
+
+/* @media screen and (min-width: 768px) {
+  .imgg{
+    background-image: url(https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 120vh
+    width: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .imgg h1 {
+    font-size: 3rem; 
+  }
+
+  .imgg h2 {
+    font-size: 2.5rem; 
+    letter-spacing: 8px; 
+  }
+
+  .imgg button {
+    width: 30vh; 
+    height: 8vh;
+    font-size: 1.25rem;
+    letter-spacing: 3px; 
+  }
+} */
